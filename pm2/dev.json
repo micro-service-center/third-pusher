@@ -1,0 +1,8 @@
+{
+  "name": "bingo-third-pusher",
+  "script": "app.js",
+  "instances": 1,
+  "env": {
+    "NODE_ENV": "dev"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "port": 10062,
+  "client_id": "f3d0f9d0-44e4-11e6-b43d-ffb8041322a2",
+  "client_secret": "f3d0f9d0-44e4-11e6-b43d-ffb8041322a2",
+  "name": "Third Platform Pusher",
+  "log_level": 6,
+  "langs": ["zh"],
+  "redis_array": ["127.0.0.1:6379"],
+  "limbo": {
+    "key": "../../secrets/client.key",
+    "cert": "../../secrets/client.cert",
+    "url": "tls://192.168.0.21:5072"
+  },
+  "platforms": {
+    "qywechat": {
+      "refer": "weixin",
+      "pushApi": "http://localhost:9000/im/test/cgi-bin/message/send",
+      "key": "tje2643a6d7d7b6403",
+      "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
+      "appHost": "http://weixin-bingo.project.ci",
+      "wxHost": "https://qyapi.weixin.qq.com/cgi-bin/service",
+      "appid": {
+        "deal": null,
+        "people": null,
+        "organization": null,
+        "contract": null,
+        "task": null,
+        "followRecord": null
+      },
+      "hooksNeedHandle": [
+        "discuss.room.deal",
+        "discuss.room.people",
+        "discuss.room.organization",
+        "discuss.room.contract",
+        "discuss.room.task",
+        "discuss.room.deal.update",
+        "discuss.room.people.update",
+        "discuss.room.organization.update",
+        "discuss.room.contract.update",
+        "discuss.room.task.update",
+        "dynamic.room.deal",
+        "dynamic.room.people",
+        "dynamic.room.organization",
+        "dynamic.room.contract",
+        "dynamic.room.task",
+        "file.room.deal",
+        "file.room.people",
+        "file.room.organization",
+        "file.room.contract",
+        "file.room.task"
+      ]
+    }
+  }
+}
