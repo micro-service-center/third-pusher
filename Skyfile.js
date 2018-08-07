@@ -34,12 +34,13 @@ sneaky('ga', function () {
   this.host = 'builder.teambition.corp'
   this.path = '/teambition/server/bingo-third-pusher-ga'
   this.filter = `
+  + config**
   + lib**
   + locales**
   + pm2**
   + app.js
   + package.json
-  + npm-shrinkwrap.json
+  + yarn.lock
   - *
   `
 
@@ -59,12 +60,13 @@ sneaky('release', function () {
   this.host = 'builder.teambition.corp'
   this.path = '/teambition/server/bingo-third-pusher-release'
   this.filter = `
+  + config**
   + lib**
   + locales**
   + pm2**
   + app.js
   + package.json
-  + npm-shrinkwrap.json
+  + yarn.lock
   - *
   `
 
