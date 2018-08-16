@@ -1,6 +1,6 @@
 {
   "name": "bingo-third-pusher",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "bingo third platform pusher service",
   "main": "app.js",
   "scripts": {
