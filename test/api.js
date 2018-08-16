@@ -31,7 +31,7 @@ tman.suite('api', function () {
       let rt = yield request.post(`/btp/bingo/hook?${qs.stringify(query)}`)
         .send(hook)
         .expect(200)
-      assert(rt.body && rt.body.weixin)
+      assert(rt.body && rt.body.qy_wechat && rt.body.qy_wechat_mp)
     })
   }
 })

@@ -2,7 +2,7 @@
   "port": 19371,
   "platforms": {
     "qywechat": {
-      "refer": "weixin",
+      "refer": "qy_wechat",
       "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
       "key": "tje2643a6d7d7b6403",
       "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
@@ -16,6 +16,37 @@
         "task": null,
         "followRecord": null
       },
+      "hooksNeedHandle": [
+        "discuss.room.deal",
+        "discuss.room.people",
+        "discuss.room.organization",
+        "discuss.room.contract",
+        "discuss.room.task",
+        "discuss.room.deal.update",
+        "discuss.room.people.update",
+        "discuss.room.organization.update",
+        "discuss.room.contract.update",
+        "discuss.room.task.update",
+        "dynamic.room.deal",
+        "dynamic.room.people",
+        "dynamic.room.organization",
+        "dynamic.room.contract",
+        "dynamic.room.task",
+        "file.room.deal",
+        "file.room.people",
+        "file.room.organization",
+        "file.room.contract",
+        "file.room.task"
+      ]
+    },
+    "qywechatmp": {
+      "appid": "wxe653a0b6c0a730c3",
+      "refer": "qy_wechat_mp",
+      "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
+      "key": "tje2643a6d7d7b6403",
+      "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
+      "appHost": "https://weixin-bingo.teambition.com",
+      "wxHost": "https://qyapi.weixin.qq.com/cgi-bin/service",
       "hooksNeedHandle": [
         "discuss.room.deal",
         "discuss.room.people",
