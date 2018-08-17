@@ -2,7 +2,7 @@
   "port": 19371,
   "platforms": {
     "qywechat": {
-      "refer": "qy_wechat",
+      "refer": "weixin",
       "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
       "key": "tje2643a6d7d7b6403",
       "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
@@ -41,7 +41,7 @@
     },
     "qywechatmp": {
       "appid": "wxe653a0b6c0a730c3",
-      "refer": "qy_wechat_mp",
+      "refer": "weixin",
       "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
       "key": "tje2643a6d7d7b6403",
       "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
