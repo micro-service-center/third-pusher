@@ -2,11 +2,11 @@
   "port": 19371,
   "platforms": {
     "qywechat": {
-      "refer": "weixin",
+      "refer": "",
       "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
-      "key": "tje2643a6d7d7b6403",
-      "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
-      "appHost": "https://weixin-bingo.teambition.com",
+      "key": "",
+      "secret": "",
+      "appHost": "",
       "wxHost": "https://qyapi.weixin.qq.com/cgi-bin/service",
       "appid": {
         "deal": null,
@@ -40,12 +40,12 @@
       ]
     },
     "qywechatmp": {
-      "appid": "wxe653a0b6c0a730c3",
+      "appid": "",
       "refer": "weixin",
       "pushApi": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
-      "key": "tje2643a6d7d7b6403",
-      "secret": "Q2Ry7ceMKCZrppvNtorN4UTK5TenERA43dWMY_hOMSyH7D8ZicJVh0FbymwhOevF",
-      "appHost": "https://weixin-bingo.teambition.com",
+      "key": "",
+      "secret": "",
+      "appHost": "",
       "wxHost": "https://qyapi.weixin.qq.com/cgi-bin/service",
       "hooksNeedHandle": [
         "discuss.room.deal",
@@ -72,13 +72,13 @@
     }
   },
   "limbo": {
-    "key": "../../secrets/client.key",
-    "cert": "../../secrets/client.cert",
-    "url": "tls://192.168.0.21:5070"
+    "key": "",
+    "cert": "",
+    "url": ""
   },
   "client_id": "8fad7be0-5fa6-11e6-be0d-c7b8ade2d309",
   "client_secret": "3a3d7780-d558-422b-bbf2-bbc620247169",
-  "name": "Bingo Third Pusher",
+  "name": "Third Pusher",
   "log_level": 6,
   "langs": ["zh"],
   "redis_array": ["127.0.0.1:6379"],
